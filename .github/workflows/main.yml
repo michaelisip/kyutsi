@@ -12,3 +12,6 @@ jobs:
         username: 'michaelisip'
         reponame: 'kyutsi'
         token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
+runs:
+  using: 'node16'
+  main: 'main.js'
