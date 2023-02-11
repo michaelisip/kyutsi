@@ -10,5 +10,7 @@ Just another reddit clone for fun.
 - [x] Infinite scroll
 - [x] Filters
 - [x] Play videos when scrolled to
-- [ ] Dark mode
+- [x] Dark mode
+- [ ] Convert to custom css
 - [ ] Scroll snapping
+- [ ] Add post details
