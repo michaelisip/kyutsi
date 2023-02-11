@@ -8,7 +8,7 @@ Just another reddit clone for fun.
 - [x] Use Pinia for state management
 - [x] Fetch posts from reddit api
 - [x] Infinite scroll
-- [ ] Filters
-- [ ] Play videos when scrolled to
+- [x] Filters
+- [x] Play videos when scrolled to
 - [ ] Dark mode
 - [ ] Scroll snapping

@@ -24,6 +24,7 @@ export const usePostStore = defineStore('posts', {
             this.after = result.data.after
             this.data.push(...posts)
 
+            /** on load, refetch if videos are not enough for scroll */
             if (this.data.length < 10) this.fetchSubredditPosts()
         },
         setSelectedSubreddit(subreddit) {
